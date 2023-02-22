@@ -2,13 +2,12 @@ import requests
 from twilio.rest import Client
 
 OWM_Endpoint = "https://api.openweathermap.org/data/3.0/onecall"
-api_key = "9806f940b9e5d62feff06496bb5214b7"
-account_sid = "AC8141ae23b27acc198f336e6505c53be7"
-auth_token = "eb2594f255a70a5659865d2939928ee3"
+api_key = "YOUR API KEY"
+account_sid = "YOUR TWILLIO SID"
+auth_token = "YOUR TWILLIO AUTHORIZATION TOKEN"
 
-# Location: Hampankatta, Mangalore
-MY_LAT = 12.870660
-MY_LONG = 74.843690
+MY_LAT = YOUR LATTITUDE
+MY_LONG = YOUR LONGITUDE
 
 parameters = {
     "lat":MY_LAT,
